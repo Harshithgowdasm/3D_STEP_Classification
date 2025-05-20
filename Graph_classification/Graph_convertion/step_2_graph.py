@@ -1,5 +1,5 @@
 import os
-from .Parser.Make_graph import make_graph_simplex_direct
+from Parser.Make_graph import make_graph_simplex_direct
 
 
 def make_graphh_dataset(path_stp, path_graph):
@@ -22,7 +22,7 @@ def make_graphh_dataset(path_stp, path_graph):
 
 
 if __name__ == "__main__":
-    path_stp = "path1"
-    path_graph = "path2"
+    path_stp = r"C:\Users\smtgo\3D_STEP_Classification\Datasets\abc\Step_models"
+    path_graph = r"C:\Users\smtgo\3D_STEP_Classification\Datasets\abc\Graph_models"
 
     make_graphh_dataset(path_stp, path_graph)
